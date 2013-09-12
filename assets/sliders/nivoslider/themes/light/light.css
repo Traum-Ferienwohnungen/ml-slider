@@ -1,102 +1,101 @@
-/*
-Skin Name: Nivo Slider Light Theme
-Skin URI: http://nivo.dev7studios.com
-Description: A light skin for the Nivo Slider.
-Version: 1.0
-Author: Gilbert Pellegrom
-Author URI: http://dev7studios.com
-Supports Thumbs: true
-*/
-
-.theme-light.slider-wrapper {
-    background: #fff;
-    padding: 10px;
+.slider-wrapper.theme-light {
+  background: #fff;
+  padding: 4px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
 }
-.theme-light .nivoSlider {
-	position:relative;
-	background:#fff;
-    margin-bottom:10px;
-    overflow: visible;
+.slider-wrapper.theme-light:hover {
+  background: #EEEEEE;
 }
-.theme-light .nivoSlider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
+.slider-wrapper.theme-light:hover .nivoSlider .nivo-caption {
+  background: #EEEEEE;
 }
-.theme-light .nivoSlider a {
-	border:0;
-	display:block;
+.slider-wrapper.theme-light .nivoSlider {
+  position: relative;
+  background: #ffffff;
+  overflow: visible;
 }
-
-.theme-light .nivo-controlNav {
-	text-align: left;
-	padding: 0;
-	position: relative;
-	z-index: 10;
+.slider-wrapper.theme-light .nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
 }
-.theme-light .nivo-controlNav a {
-	display:inline-block;
-	width:10px;
-	height:10px;
-	background:url(bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin: 0 2px;
+.slider-wrapper.theme-light .nivoSlider a {
+  border: 0;
+  display: block;
 }
-.theme-light .nivo-controlNav a.active {
-	background-position:0 100%;
+.slider-wrapper.theme-light .nivoSlider .nivo-directionNav {
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
 }
-
-.theme-light .nivo-directionNav a {
-	display:block;
-	width:30px;
-	height:30px;
-	background: url(arrows.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	top: auto;
-	bottom: -36px;
-	z-index: 11;
+.slider-wrapper.theme-light .nivoSlider .nivo-directionNav a {
+  display: absolute;
+  width: 27px;
+  height: 27px;
+  background: url(bg_direction_nav.png) no-repeat;
+  text-indent: -9999px;
+  border: 0;
+  top: auto;
+  bottom: -36px;
+  z-index: 11;
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
-.theme-light .nivo-directionNav a:hover {
-    background-color: #eee;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+.slider-wrapper.theme-light .nivoSlider .nivo-directionNav a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
-.theme-light a.nivo-nextNav {
-	background-position:160% 50%;
-	right:0px;
+.slider-wrapper.theme-light .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  background-position: -26px 6px;
+  right: 0px;
+  top: 0px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
 }
-.theme-light a.nivo-prevNav {
-    background-position:-60% 50%;
-    left: auto;
-	right: 35px;
+.slider-wrapper.theme-light .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  background-position: 8px 6px;
+  left: 0px;
+  top: 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
 }
-
-.theme-light .nivo-caption {
-    font-family: Helvetica, Arial, sans-serif;
+.slider-wrapper.theme-light .nivoSlider .nivo-caption {
+  padding-top: 10px;
+  padding-left: 5px;
+  background: #fff;
+  color: #111;
+  font-size: 10px;
+  position: relative;
 }
-.theme-light .nivo-caption a {
-    color:#fff;
-    border-bottom:1px dotted #fff;
+.slider-wrapper.theme-light .nivoSlider .nivo-caption a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
 }
-.theme-light .nivo-caption a:hover {
-    color:#fff;
+.slider-wrapper.theme-light .nivoSlider .nivo-caption a:hover {
+  color: #fff;
 }
-
-.theme-light .nivo-controlNav.nivo-thumbs-enabled {
-	width: 80%;
+.slider-wrapper.theme-light .nivo-controlNav {
+  text-align: left;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  float: right;
+  top: 5px;
+  cursor: pointer;
 }
-.theme-light .nivo-controlNav.nivo-thumbs-enabled a {
-	width: auto;
-	height: auto;
-	background: none;
-	margin-bottom: 5px;
+.slider-wrapper.theme-light .nivo-controlNav a.nivo-control {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(bullets.png) no-repeat;
+  text-indent: -9999px;
+  border: 0;
+  margin: 0 2px;
 }
-.theme-light .nivo-controlNav.nivo-thumbs-enabled img {
-	display: block;
-	width: 120px;
-	height: auto;
+.slider-wrapper.theme-light .nivo-controlNav a.nivo-control.active {
+  background-position: 0 100%;
 }

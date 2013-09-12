@@ -498,12 +498,12 @@
             } else if(currentEffect === 'fade'){
                 /*createSlices(slider, settings, vars);
 
-                 firstSlice = $('.nivo-slice:first', slider);
-                 firstSlice.css({
-                 'width': slider.width() + 'px'
-                 });
+                firstSlice = $('.nivo-slice:first', slider);
+                firstSlice.css({
+                    'width': slider.width() + 'px'
+                });
 
-                 firstSlice.animate({ opacity:'1.0' }, (settings.animSpeed*2), '', function(){ slider.trigger('nivo:animFinished'); });*/
+                firstSlice.animate({ opacity:'1.0' }, (settings.animSpeed*2), '', function(){ slider.trigger('nivo:animFinished'); });*/
 
                 $('img.nivo-main-image').animate({ opacity:'0.0' }, (settings.animSpeed*2), '', function(){ slider.trigger('nivo:animFinished'); });
             } else if(currentEffect === 'slideInRight'){

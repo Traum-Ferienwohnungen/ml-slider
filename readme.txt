@@ -1,3 +1,22 @@
+====== FEWO ONLY =======================================================
+
+1. Altes Plugin deaktivieren/deinstallieren
+2. Meta Slider FeWo draufbügeln
+3. Im Adminbereich die Einstellungen für das Plugin anpassen
+3.1 Nivo Slider
+3.2 Size 550 * 384
+3.3 Center align
+3.4 Controls Pager + Navigation
+3.5 Effect Fade
+3.6 Theme Light
+3.7 (!!) Print CSS + Print JS (!!)
+
+========================================================================
+
+
+
+
+
 === Plugin Name ===
 Contributors: matchalabs
 Tags: widget,wordpress slider,slideshow,wordpress slideshow,image slider,flexslider,flex slider,nivoslider,nivo slider,responsiveslides,responsive,responsive slides,coinslider,coin slider,slideshow,carousel,responsive slider,vertical slides,ml slider,image rotator,metaslider,meta,ajax,metaslider pro
